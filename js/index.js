@@ -80,6 +80,7 @@ async function foodDeatials(id) {
   <div class="card-body">
     <h5 class="card-title">${food.strMeal}</h5>
     <h6 class="card-subtitle mb-2 text-body-secondary">${food.strArea} ${food.strCategory}</h6>
+    <h6 class="card-subtitle  text-body-primary p-0">Ingredients List</h6>
     <ul>
         <li>${food.strIngredient1}</li>
         <li>${food.strIngredient2}</li>
